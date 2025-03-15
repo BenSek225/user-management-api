@@ -1,0 +1,11 @@
+# fastapi_version/requirements.txt
+fastapi==0.110.0
+uvicorn==0.29.0
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9
+pydantic[email]==2.6.4  # Inclut email-validator pour EmailStr
+pyjwt==2.8.0
+bcrypt==4.1.2
+pytest==8.3.5  # Mise à jour vers la dernière version utilisée
+pytest-asyncio==0.25.3  # Ajouté pour les tests asynchrones
+httpx==0.27.0
